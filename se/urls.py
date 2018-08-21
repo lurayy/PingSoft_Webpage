@@ -19,4 +19,5 @@ from django.urls import path,re_path , include
 urlpatterns = [
     path('admin/', admin.site.urls),
     re_path(r'^$',include('homepage.urls')),
+    re_path(r'login',include('loginModule.urls')),
 ]
