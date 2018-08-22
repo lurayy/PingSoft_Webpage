@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'se.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'classNote',
+        'NAME': 'pingData',
         'HOST': '127.0.0.1',
         'USER': 'lurayy',
         'PASSWORD': 'dbpassword',
